@@ -1,5 +1,6 @@
 import './assets/main.css'
 import { createApp } from 'vue'
+import { plugin, defaultConfig } from '@formkit/vue'
 import { createPinia } from 'pinia'
 
 import App from './App.vue'
@@ -9,5 +10,5 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-
+use(plugin, defaultConfig)
 app.mount('#app')
