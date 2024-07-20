@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <RouterLink
-   class="rounded-md text-white font-bold bg-blue-800 px-10 py-2"
+   class="rounded-md text-white font-bold bg-green-500 px-10 py-2"
    :to="{name:to}"
   >
       <slot></slot>

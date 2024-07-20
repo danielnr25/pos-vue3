@@ -4,7 +4,7 @@ import MainNav from '@/components/MainNav.vue'
 
 <template>
    <MainNav />
-   <div>
+   <div class="pt-40">
       <h2>Desde tienda de productos</h2>
    </div>
    

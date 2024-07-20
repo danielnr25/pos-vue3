@@ -10,7 +10,7 @@
       </div>
       <nav>
          <Link
-            to="sales"
+            to="ventas"
          >
             Administrar
          </Link>
