@@ -17,7 +17,7 @@ const config = {
             fileItem: "hidden",
           },
          submit:{
-            input: 'bg-indigo-800 hover:bg-indigo-700 text-white font-bold p-2 rounded w-full uppercase',
+            input: '$reset bg-indigo-800 hover:bg-indigo-700 text-white font-bold p-2 rounded w-full uppercase',
          }
       }),
    }
