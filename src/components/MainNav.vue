@@ -1,6 +1,7 @@
 <script setup>
    import Logo from '@/components/Logo.vue'
    import Link from '@/components/Link.vue'
+   import Categories from './Categories.vue';
 </script>
 
 <template>
@@ -16,6 +17,9 @@
          </Link>
       </nav>
    </header>
+   <div class="pt-28 lg:pt-16">
+      <Categories />
+   </div>
 </template>
 
 
